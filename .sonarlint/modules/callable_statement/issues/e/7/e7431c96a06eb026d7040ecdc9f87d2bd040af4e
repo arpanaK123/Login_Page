@@ -1,0 +1,25 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.( —×àùÿÿÿÿ8óİÌÆ,H±RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÂÍñ8óİÌÆ,H³RMAJORZ
+CODE_SMELL
+_squid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óİÌÆ,H·RMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(×¢ìª8óİÌÆ,H°RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(²œıÍıÿÿÿÿ8óİÌÆ,H²RMAJORZ
+CODE_SMELL
+esquid:S1135-"2Complete the task associated to this TODO comment.(‡ñÅ¼8óİÌÆ,HµRINFOZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßã·úûÿÿÿÿ8óİÌÆ,H´RMAJORZ
+CODE_SMELL
+l
+squid:S106+"9Replace this use of System.out or System.err by a logger.(­°êø8ÜäòÆ,HºRMAJORZ
+CODE_SMELL
+jsquid:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÜäòÆ,H»RINFOZ
+CODE_SMELL
+osquid:S22591"BA "NullPointerException" could be thrown; "csmt" is nullable here.(îé’°8ÜäòÆ,H¼RMAJORZBUG

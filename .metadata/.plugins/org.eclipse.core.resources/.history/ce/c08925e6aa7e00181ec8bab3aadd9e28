@@ -1,0 +1,47 @@
+package com.bridgeit.app;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LoginController extends HttpServlet {
+
+	
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Connection con = null;
+		String un = request.getParameter("username");
+		String pw = request.getParameter("password");
+
+		try {
+
+			con = DBConnection.getConnection(); // new
+												// connection
+			PreparedStatement ps = con
+					.prepareStatement("select username,password from login where username=? and password=?");
+			ps.setString(1, un);
+			ps.setString(2, pw);
+
+			ResultSet rs = ps.executeQuery();
+
+			while (rs.next()) {
+				response.sendRedirect("success.html");
+				return;
+			}
+			response.sendRedirect("error.html");
+			return;
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

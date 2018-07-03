@@ -1,0 +1,6 @@
+
+<a href="login.html">Login</a>
+|
+<a href="register.html">Logout</a>
+|
+<a href="LogoutServlet">Profile</a>

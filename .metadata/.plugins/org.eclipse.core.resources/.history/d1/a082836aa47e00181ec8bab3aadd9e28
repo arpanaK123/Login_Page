@@ -1,0 +1,5 @@
+package com.bridgeit.app;
+
+public class DBConnection {
+
+}

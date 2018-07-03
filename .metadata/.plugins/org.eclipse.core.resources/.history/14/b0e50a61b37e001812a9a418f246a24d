@@ -1,0 +1,42 @@
+package com.bridgeit.app;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Register extends HttpServlet {
+	Connection con = null;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		request.getRequestDispatcher("link.html").include(request, response);
+
+		String name = request.getParameter("username");
+		String password = request.getParameter("password");
+		try {
+			PreparedStatement ps = con.prepareStatement("insert into login values(?,?)");
+
+			ps.setString(1, name);
+			ps.setString(2, password);
+
+			int i = ps.executeUpdate();
+			if (i > 0)
+				out.print("You are successfully registered...");
+			response.sendRedirect("index.html");
+		} catch (Exception e) {
+			e.printStackTrace();
+
+		}
+
+	}
+
+}

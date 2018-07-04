@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.bridgeit.demo.DBConnection"/>
+    <fullyQualifiedTypeName name="com.bridgeit.app.DBConnection"/>
 </qualifiedTypeNameHistroy>

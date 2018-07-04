@@ -12,7 +12,6 @@
 		<servlet-name>register</servlet-name>
 		<url-pattern>/Register</url-pattern>
 	</servlet-mapping>
-
 	<servlet>
 		<servlet-name>login</servlet-name>
 		<servlet-class>com.bridgeit.app.LoginController</servlet-class>
@@ -22,6 +21,15 @@
 		<url-pattern>/LoginController</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.bridgeit.app.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>

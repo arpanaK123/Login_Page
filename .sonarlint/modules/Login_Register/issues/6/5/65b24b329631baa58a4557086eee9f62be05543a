@@ -1,7 +1,7 @@
 
-hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,H‹RMINORZVULNERABILITY
-lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿHRMAJORZ
+gsquid:S1989&"+Add a "try/catch" block for "sendRedirect".(¸Å¡¹øÿÿÿÿ8°úŠüÅ,H RMINORZVULNERABILITY
+gsquid:S1989#"+Add a "try/catch" block for "sendRedirect".(Õ›„ãşÿÿÿÿ8°úŠüÅ,H¡RMINORZVULNERABILITY
+hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,H¢RMINORZVULNERABILITY
+lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿH£RMAJORZ
 CODE_SMELL
-gsquid:S1989&"+Add a "try/catch" block for "sendRedirect".(¸Å¡¹øÿÿÿÿ8°úŠüÅ,HRMINORZVULNERABILITY
-hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,HŒRMINORZVULNERABILITY
-gsquid:S1989#"+Add a "try/catch" block for "sendRedirect".(Õ›„ãşÿÿÿÿ8°úŠüÅ,HRMINORZVULNERABILITY
+hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,H¤RMINORZVULNERABILITY

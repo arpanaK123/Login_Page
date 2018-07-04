@@ -1,15 +1,15 @@
 
-dsquid:S1989"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ8ı¶ôıÅ,H”RMINORZVULNERABILITY
-lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿH€RMAJORZ
+_squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ë‡ÕüÅ,H×RMINORZVULNERABILITY
+osquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8è…ÿÅ,HÕRMINORZ
 CODE_SMELL
-ssquid:S2259"AA "NullPointerException" could be thrown; "con" is nullable here.(™ô“Äúÿÿÿÿ8Şô„ÿÅ,H›RMAJORZBUG
-_squid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ë‡ÕüÅ,HRMINORZVULNERABILITY
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ²¸€øÿÿÿÿ8©ÅœÿÅ,H£RMAJORZ
+hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8ÑĞƒÆ,HRMINORZVULNERABILITY
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë£Õ¯ùÿÿÿÿ8”è¥ÿÅ,HØRMAJORZ
 CODE_SMELL
-bsquid:S1989"&Add a "try/catch" block for "include".(›”–¢ıÿÿÿÿ8ò¶ÔıÅ,H‚RMINORZVULNERABILITY
-asquid:S1989"&Add a "try/catch" block for "include".(›”–¢ıÿÿÿÿ8ò¶ÔıÅ,HRMINORZVULNERABILITY
-osquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8è…ÿÅ,HŸRMINORZ
+lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿHÖRMAJORZ
 CODE_SMELL
 q
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ë£Õ¯ùÿÿÿÿ8”è¥ÿÅ,H§RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(†ÇÌ¢üÿÿÿÿ8ú¢Õ‚Æ,HíRMAJORZ
+CODE_SMELL
+qsquid:UselessImportCheck"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8°–ƒÆ,H¨RMINORZ
 CODE_SMELL

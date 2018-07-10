@@ -19,3 +19,5 @@ J
 WebContent/WEB-INF/web.xml,c/5/c510f2eaee6faa7ce096cfb89f5dcfc359c14265
 R
 "src/com/bridgeit/app/Register.java,9/8/985ffe320c40a272d73975a3f948224245cf3614
+W
+'src/com/bridgeit/app/LogoutServlet.java,d/f/df6a44643707c1713b97b04df53988a4436d3814

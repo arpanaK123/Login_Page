@@ -1,7 +1,14 @@
 
-gsquid:S1989&"+Add a "try/catch" block for "sendRedirect".(¸Å¡¹øÿÿÿÿ8°úŠüÅ,H RMINORZVULNERABILITY
-gsquid:S1989#"+Add a "try/catch" block for "sendRedirect".(Õ›„ãşÿÿÿÿ8°úŠüÅ,H¡RMINORZVULNERABILITY
-hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,H¢RMINORZVULNERABILITY
-lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿH£RMAJORZ
+hsquid:S1989$",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,HÒRMINORZVULNERABILITY
+lsquid:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿHÕRMAJORZ
 CODE_SMELL
-hsquid:S1989",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,H¤RMINORZVULNERABILITY
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(†•†úÿÿÿÿ8Ê•ñ¡Æ,HâRMAJORZ
+CODE_SMELL
+hsquid:S1989$",Add a "try/catch" block for "getConnection".(ˆŒ¥ûùÿÿÿÿ8“›­üÅ,HÔRMINORZVULNERABILITY
+gsquid:S19893"+Add a "try/catch" block for "sendRedirect".(¸Å¡¹øÿÿÿÿ8°úŠüÅ,HÓRMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(§çíû8Ê•ñ¡Æ,HáRMAJORZ
+CODE_SMELL
+gsquid:S1989/"+Add a "try/catch" block for "sendRedirect".(Õ›„ãşÿÿÿÿ8°úŠüÅ,HÖRMINORZVULNERABILITY
+dsquid:S1989"(Add a "try/catch" block for "getWriter".(ïô†úÿÿÿÿ8êâƒ¢Æ,HèRMINORZVULNERABILITY

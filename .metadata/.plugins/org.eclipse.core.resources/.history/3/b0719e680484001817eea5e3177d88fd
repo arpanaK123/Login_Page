@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body style="background-color:powderblue;">
+<div class="card"> 
+	<form action="LoginController" method="post">
+		Enter username :<input type="text" name="username"> <br><br>
+		Enter password :<input type="password" name="password"><br></br>
+		<input type="submit" value="Login">
+	</form>
+	</div>
+	
+</body>
+</html>

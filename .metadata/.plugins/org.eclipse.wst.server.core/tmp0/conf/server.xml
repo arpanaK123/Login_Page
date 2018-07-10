@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/bridgeit/LOGIN_servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/LOGIN_servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/REGISTRATION" path="/REGISTRATION" reloadable="true" source="org.eclipse.jst.jee.server:REGISTRATION"/><Context docBase="/home/bridgeit/LOGIN_servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Login_Register" path="/Login_Register" reloadable="true" source="org.eclipse.jst.jee.server:Login_Register"/></Host>
+      <Context docBase="/home/bridgeit/LOGIN_servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/LOGIN_servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Login_Register" path="/Login_Register" reloadable="true" source="org.eclipse.jst.jee.server:Login_Register"/></Host>
     </Engine>
   </Service>
 </Server>

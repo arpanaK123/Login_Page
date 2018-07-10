@@ -1,29 +1,41 @@
 package com.bridgeit.app;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class LoginController extends HttpServlet {
 
-	
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
+		PrintWriter out = response.getWriter();
+
+		HttpSession session = request.getSession(true);
+		Date createTime = new Date(session.getCreationTime());
+		System.out.println("start time: " + createTime);
+		Date lastAccessTime = new Date(session.getLastAccessedTime());
+		System.out.println("end time: " + lastAccessTime);
+
 		String un = request.getParameter("username");
 		String pw = request.getParameter("password");
 
 		try {
 
 			Connection con = null;
-			con = DBConnection.getConnection(); 
+			con = DBConnection.getConnection();
+
+			out.println("Start Time: " + createTime);
 			PreparedStatement ps = con
 					.prepareStatement("select username,password from login where username=? and password=?");
 			ps.setString(1, un);
@@ -33,9 +45,11 @@ public class LoginController extends HttpServlet {
 
 			while (rs.next()) {
 				response.sendRedirect("success.html");
+				out.println("end Time: " + lastAccessTime);
 				return;
 			}
 			response.sendRedirect("error.html");
+			out.println("end time: " + lastAccessTime);
 			return;
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
